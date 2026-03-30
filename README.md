@@ -52,3 +52,12 @@ Target variable:
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/sindhukarnala05-crypto/Student-Performance-Prediction.git
+# Project Preview
+# Streamlit App
+![App UI](assets/app_ui.png)
+
+# Prediction Output
+![Prediction](assets/prediction.png)
+
+# Data Visualization
+![Graph](assets/graph.png)
