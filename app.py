@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 
 # Load model and scaler
-model = joblib.load("../student_performance_model.pkl")
-scaler = joblib.load("../scaler.pkl")
+model = joblib.load("student_performance_model.pkl")
+scaler = joblib.load("scaler.pkl")
 
 st.title("🎓 Student Performance Predictor")
 st.write("Enter student details to predict performance")
