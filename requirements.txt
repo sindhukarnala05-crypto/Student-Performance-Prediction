@@ -3,6 +3,7 @@ numpy
 scikit-learn
 matplotlib
 seaborn
-streamlit
 joblib
 openpyxl
+streamlit>=1.39
+altair<6
