@@ -32,12 +32,9 @@ if st.button("Predict"):
 
     # prediction
     prediction = model.predict(input_scaled)
+    prediction = model.predict(input_scaled)
 
-    if prediction[0] == 0:
-        result = "Low"
-    elif prediction[0] == 1:
-        result = "Medium"
-    else:
-        result = "High"
-
-    st.success(f"🎯 Predicted Performance: {result}")
+# Map numeric output to labels
+labels = ["Low", "Medium", "High"]
+result = labels[prediction[0]]
+st.success(f" Predicted Performance: {result}")
